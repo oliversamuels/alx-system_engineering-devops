@@ -1,1 +1,1 @@
-Files with Shell Redirection commands
+Files with Shell redirections commands. Allexecutable.
