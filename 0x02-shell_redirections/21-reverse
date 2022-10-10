@@ -1,3 +1,2 @@
 #!/bin/bash
-read input
-echo $input | rev
+rev
