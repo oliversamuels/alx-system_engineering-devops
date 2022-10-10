@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "rev"
+read input
+echo $input | rev
