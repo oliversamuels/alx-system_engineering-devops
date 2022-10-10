@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F":" '$7 == "/bin/false" {print "User: "$1 "Home Dir: "$6}' /etc/passwd
+ls -l -d $(cut -d':' -f5 /etc/passwd) 2>/dev/null | sort -u
